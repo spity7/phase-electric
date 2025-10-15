@@ -1,0 +1,131 @@
+/*==========================================================================
+* Breadcrumb CSS
+==========================================================================*/
+.breadcrumb__area {
+  position: relative;
+  z-index: 1;
+  padding: 174px 0;
+  background-image: url("/img/shape/breadcrumb.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &-title {
+    h1 {
+      font-size: 64px;
+      line-height: 74px;
+    }
+  }
+  &-meta ul {
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+    li {
+      list-style: none;
+      color: var(--primary-color-1);
+      font-size: 24px;
+      line-height: 34px;
+      display: inline-flex;
+      gap: 15px;
+      align-items: center;
+      font-family: var(--heading-font);
+      a {
+        transition: 0.4s;
+        color: var(--color-1);
+        &:hover {
+          color: var(--primary-color-1);
+        }
+      }
+      i {
+        color: var(--color-1);
+        font-size: 16px;
+      }
+    }
+  }
+}
+/*==========================================================================
+* Error CSS
+==========================================================================*/
+.error {
+  &-page {
+    text-align: center;
+    h1 {
+      font-size: 240px;
+      line-height: 1;
+      font-weight: 600;
+      span {
+        color: var(--primary-color-1);
+      }
+    }
+    h2 {
+      margin: 15px 0 30px 0;
+    }
+    p {
+      margin-bottom: 35px;
+    }
+  }
+}
+/*==========================================================================
+* Theme Pagination CSS
+==========================================================================*/
+.pagination {
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    li {
+      list-style: none;
+      .active {
+        background: var(--color-8);
+        border-color: var(--color-8);
+        color: var(--heading-color);
+      }
+      a {
+        border: 1px solid #181818;
+        display: flex;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+        border-radius: 50%;
+        color: var(--heading-color);
+        &:hover {
+          background: var(--color-8);
+          border-color: var(--color-8);
+          color: var(--heading-color);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .breadcrumb__area {
+    padding: 140px 0;
+    &-title h1 {
+      font-size: 42px;
+      line-height: 52px;
+    }
+    &-meta ul li {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  .error-page h1 {
+    font-size: 140px;
+    line-height: 150px;
+  }
+}
+@media (max-width: 359px) {
+  .breadcrumb__area {
+    &-title {
+      h1 {
+        font-size: 38px;
+        line-height: 48px;
+      }
+    }
+  }
+}

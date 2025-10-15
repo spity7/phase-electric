@@ -1,0 +1,104 @@
+/*==========================================================================
+* Pricing Plan CSS
+==========================================================================*/
+.pricing__one {
+  overflow: hidden;
+  &-item {
+    padding: 40px;
+    border: 1px solid #181818;
+    transition: 0.4s;
+    margin-top: 30px;
+    &:hover {
+      background: var(--color-2);
+    }
+    &-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-size: 50px;
+        line-height: 60px;
+        span {
+          font-size: 24px;
+          line-height: 34px;
+          text-transform: lowercase;
+        }
+      }
+    }
+    &-price {
+      border-bottom: 1px solid var(--border-color-1);
+      padding-bottom: 15px;
+      margin-bottom: 35px;
+      h6 {
+        font-size: 20px;
+      }
+      h2 {
+        span {
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+    &-list {
+      margin-top: 60px;
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 18px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          i {
+            color: var(--primary-color-1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    &-button {
+      margin-top: 40px;
+      a {
+        width: 100%;
+      }
+    }
+  }
+  &-page,
+  &.services {
+    .pricing__area-item {
+      > span {
+        background: var(--primary-color-1);
+      }
+      &-list ul li i {
+        color: var(--primary-color-1);
+        border-color: var(--primary-color-1);
+      }
+      &:hover {
+        border-color: var(--primary-color-1);
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .pricing__one-item-title {
+    h3 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    h2 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+  .pricing__one-item {
+    padding: 30px;
+  }
+}

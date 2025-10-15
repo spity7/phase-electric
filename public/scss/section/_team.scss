@@ -1,0 +1,267 @@
+/*==========================================================================
+* Team One CSS
+==========================================================================*/
+.team__one {
+  background: var(--color-2);
+  overflow: hidden;
+  &-title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    p {
+      text-align: center;
+      max-width: 635px;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  }
+  &-item {
+    border: 1px solid #181818;
+    &-image {
+      img {
+        width: 100%;
+      }
+    }
+    &-content {
+      position: absolute;
+      bottom: 0;
+      inset-inline-start: 0;
+      inset-inline-end: 0;
+      padding: 20px 30px;
+      margin: 30px;
+      margin-inline-end: 52px;
+      border: 1px solid #181818;
+      background: var(--bg-white);
+      &-icon {
+        position: absolute;
+        inset-inline-end: -22px;
+        top: 50%;
+        transform: translateY(-50%);
+        span {
+          color: var(--heading-color);
+          display: inline-flex;
+          height: 45px;
+          width: 45px;
+          align-items: center;
+          justify-content: center;
+          font-size: 16px;
+          background: var(--secondary-color-3);
+          border-radius: 50%;
+          transition: 0.4s;
+          cursor: pointer;
+        }
+        .team__one-item-content-social {
+          position: absolute;
+          bottom: 55px;
+        }
+        &:hover {
+          .team__one-item-content-social {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+      &-social {
+        position: absolute;
+        inset-inline-start: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.4s;
+        ul {
+          padding: 0;
+          margin: 0;
+          li {
+            list-style: none;
+            margin-bottom: 8px;
+            &:last-child {
+              margin: 0;
+            }
+            a {
+              i {
+                display: inline-flex;
+                height: 45px;
+                width: 45px;
+                align-items: center;
+                justify-content: center;
+                font-size: 16px;
+                border-radius: 50%;
+                background: var(--color-2);
+                color: var(--heading-color);
+                transition: 0.4s;
+                &:hover {
+                  background: var(--secondary-color-1);
+                }
+              }
+            }
+          }
+        }
+      }
+      h6 a {
+        transition: 0.4s;
+        &:hover {
+          color: var(--primary-color-1);
+        }
+      }
+    }
+    &:hover .team__one-item-content-icon span {
+      background: var(--secondary-color-1);
+    }
+  }
+  &-pagination {
+    text-align: center;
+    .team_pagination {
+      .swiper-pagination-bullet {
+        border-radius: 50%;
+        background: var(--primary-color-1);
+        width: 10px;
+        height: 10px;
+        transition: all 0.4s ease-out 0s;
+        opacity: 1;
+        margin: 0;
+        margin-inline-end: 15px;
+        position: relative;
+        &::after {
+          position: absolute;
+          content: "";
+          width: 24px;
+          height: 24px;
+          border: 2px solid var(--primary-color-1);
+          top: 50%;
+          border-radius: 50%;
+          inset-inline-start: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+        }
+        &-active {
+          &::after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+/*==========================================================================
+* Team Two CSS
+==========================================================================*/
+.team__two {
+  overflow: hidden;
+  background: var(--color-1);
+  &-title {
+    h2 {
+      color: var(--text-white);
+      margin-bottom: 20px;
+    }
+    p {
+      color: var(--text-white);
+      margin-bottom: 45px;
+    }
+    a {
+      background: var(--color-7);
+      &:hover {
+        background: var(--secondary-color-1);
+      }
+    }
+  }
+  &-right {
+    display: flex;
+    gap: 30px;
+  }
+  &-item {
+    flex: 2;
+    transition: 0.4s;
+    position: relative;
+    img {
+      height: 370px;
+      object-fit: cover;
+      width: 100%;
+    }
+    &-social {
+      position: absolute;
+      top: 20px;
+      inset-inline-end: 20px;
+      ul {
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 8px;
+        li {
+          list-style: none;
+          a {
+            display: inline-flex;
+            transition: all ease 0.4s;
+            opacity: 0;
+            transform: translateX(20px);
+            i {
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background: var(--secondary-color-2);
+              color: var(--color-1);
+              transition: 0.4s;
+              font-size: 14px;
+            }
+            &:hover {
+              i {
+                background: var(--primary-color-1);
+                color: var(--text-white);
+              }
+            }
+          }
+          &:nth-child(1) a {
+            transition-delay: 0.1s;
+          }
+          &:nth-child(2) a {
+            transition-delay: 0.2s;
+          }
+          &:nth-child(3) a {
+            transition-delay: 0.3s;
+          }
+        }
+      }
+    }
+    &-content {
+      position: absolute;
+      bottom: 0;
+      inset-inline-start: 0;
+      display: flex;
+      justify-content: center;
+      inset-inline-end: 0;
+      .info {
+        text-align: center;
+        margin: 15px;
+        background: var(--secondary-color-1);
+        transition: 0.4s;
+        opacity: 0;
+      }
+    }
+    &.active {
+      flex: 3;
+      .team__two-item {
+        &-content .info {
+          padding: 12px 30px;
+          opacity: 1;
+        }
+        &-social {
+          ul li {
+            a {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .team__two {
+    &-right {
+      flex-direction: column;
+    }
+  }
+}
