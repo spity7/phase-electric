@@ -27,15 +27,16 @@ const Faq = () => {
           <div className="col-lg-7">
             <div className="faq__two-right">
               <div className="faq__two-right-title">
-                <h2>Ask Question</h2>
+                <h2>Frequently Asked Questions</h2>
                 <p
                   data-aos-duration="800"
                   data-aos="fade-up"
                   data-aos-delay="600"
                 >
-                  Plumbers provide essential services to install, repair, and
-                  maintain plumbing systems in residential and commercial
-                  properties. They work on pipes, fixtures
+                  At Phase Electric, we’re here to make electrical work simple,
+                  safe, and efficient. From residential upgrades to commercial
+                  installations, here are answers to some of the most common
+                  questions we receive from our clients.
                 </p>
               </div>
               <div
@@ -51,7 +52,8 @@ const Faq = () => {
                     className={(active == 0 ? "  " : " collapsed") + " icon"}
                     onClick={() => setActive(active === 0 ? -1 : 0)}
                   >
-                    <span>01</span>How often Plumb Professionals?
+                    <span>01</span>How often should I have my electrical system
+                    inspected?
                   </h5>
                   <div
                     id="collapseOne"
@@ -61,8 +63,10 @@ const Faq = () => {
                     }`}
                   >
                     <p>
-                      Plumbers provide essential services to install repair and
-                      plumbing systems in residential and commercial properties
+                      We recommend having your electrical system inspected every
+                      3–5 years. Regular inspections ensure safety, identify
+                      potential hazards early, and keep your home or business
+                      compliant with current electrical codes.
                     </p>
                   </div>
                 </div>
@@ -73,7 +77,8 @@ const Faq = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
                   >
-                    <span>02</span>What should I do in case of a plumbing?
+                    <span>02</span>What should I do if my circuit breaker keeps
+                    tripping?
                   </h5>
                   <div
                     id="collapseTwo"
@@ -83,8 +88,10 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <p>
-                      Plumbers provide essential services to install repair and
-                      plumbing systems in residential and commercial properties
+                      A frequently tripping breaker can indicate an overloaded
+                      circuit, faulty wiring, or a damaged appliance. Unplug a
+                      few devices from the affected circuit, and if the issue
+                      continues, contact Phase Electric for a diagnostic check.
                     </p>
                   </div>
                 </div>
@@ -95,7 +102,7 @@ const Faq = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
                   >
-                    <span>03</span>What is the best way hardwood floors ?
+                    <span>03</span>Do you provide emergency electrical services?
                   </h5>
                   <div
                     id="collapseThree"
@@ -105,8 +112,10 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <p>
-                      Plumbers provide essential services to install repair and
-                      plumbing systems in residential and commercial properties
+                      Yes! Phase Electric offers 24/7 emergency service for
+                      power outages, faulty wiring, and other urgent electrical
+                      issues. Your safety is our top priority — call us anytime,
+                      day or night.
                     </p>
                   </div>
                 </div>

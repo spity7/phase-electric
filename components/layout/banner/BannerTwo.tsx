@@ -10,18 +10,23 @@ const BannerTwo = () => {
         <div className="row ai-center">
           <div className="col-lg-7 lg-mb-40">
             <div className="banner__two-content">
-              <h1 data-aos-duration="800"
-                    data-aos="fade-up" data-aos-delay="400">
-                Plumbing pros you Quality <span>work every</span> time Fix it
-                fast
+              <h1
+                data-aos-duration="800"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                Powering the Future <span>One Connection</span> at a Time
               </h1>
               <p
                 data-aos-duration="800"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                Plumbers provide essential services to install, repair, and
-                maint plumbing systems in residential and commercial properties
+                Welcome to <strong>Phase Electric</strong>, your trusted partner
+                for electrical contracting, automation, solar systems, and smart
+                home integration. We provide innovative, sustainable, and
+                reliable solutions for residential, commercial, and industrial
+                clients.
               </p>
               <div
                 data-aos-duration="800"
@@ -54,9 +59,9 @@ const BannerTwo = () => {
                 </div>
                 <div className="content-title">
                   <h3>
-                    <span className="counter">3</span>k+
+                    <span className="counter">10</span>+
                   </h3>
-                  <span>Website Lounged</span>
+                  <span>Years of Experience</span>
                 </div>
               </div>
             </div>

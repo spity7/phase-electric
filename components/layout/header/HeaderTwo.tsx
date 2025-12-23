@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/logo-1.png";
+import logo from "@/public/img/Pha_e-removebg-preview (1).png";
 import SearchBox from "./SearchBox";
 import Hamburger from "./Hamburger";
 import OffCanvasMenu from "./OffcanvasMenu";
@@ -48,14 +48,14 @@ const HeaderTwo = () => {
             <div className="col-xl-12">
               <div className="header-two-area">
                 <div className="row ai-center">
-                  <div className="col-xl-2 col-lg-2 col-7">
+                  <div className="col-xl-12 col-lg-12 col-12 text-center">
                     <div className="header-one__left logo">
                       <Link href="/">
                         <Image src={logo} alt="logo" priority />
                       </Link>
                     </div>
                   </div>
-                  <div className="col-xl-6 col-lg-8 res-hide">
+                  {/* <div className="col-xl-6 col-lg-8 res-hide">
                     <div className="header-one__center">
                       <div className="header-one__center-menu t-center">
                         <ul id="mobilemenu">
@@ -133,8 +133,8 @@ const HeaderTwo = () => {
                         </ul>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-xl-4 col-lg-2 col-5">
+                  </div> */}
+                  {/* <div className="col-xl-4 col-lg-2 col-5">
                     <div className="header-one__right">
                       <div className="header-one__right-search">
                         <div className="search">
@@ -161,7 +161,7 @@ const HeaderTwo = () => {
                         <i className="fa-regular fa-bars"></i>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

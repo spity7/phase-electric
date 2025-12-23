@@ -20,14 +20,14 @@ const Solutions = ({ addClass = false }) => {
           <div className="row ai-center">
             <div className="col-lg-8 lg-mb-30 ">
               <div className="solutions__area-left">
-                <h2>
-                  Your Plumbing Solutions Our Expertise
-                </h2>
+                <h2>Empowering Industries with Smarter Electrical Solutions</h2>
                 <p>
-                  Plumbers provide essential services to install, repair, and
-                  maint plumbing systems in residential and commercial
-                  properties. They work on pipes, fixtures, water heaters, and
-                  drainage systems
+                  Since 1993, <strong>Phase Electric</strong> has delivered
+                  advanced electrical systems that power homes, businesses, and
+                  industries. From panel board assembly and industrial
+                  automation to solar energy and smart home integration, our
+                  solutions are designed to enhance efficiency, reliability, and
+                  sustainability across every project.
                 </p>
               </div>
             </div>
@@ -40,11 +40,11 @@ const Solutions = ({ addClass = false }) => {
               <div className="solutions__area-right">
                 <h2>
                   <span className="counter">
-                    <Counter value={25} />
+                    <Counter value={10} />
                   </span>
                   <span className="pre">+</span>
                 </h2>
-                <h5>Services we provide</h5>
+                <h5>Years of Industry Experience</h5>
               </div>
             </div>
           </div>
@@ -58,11 +58,11 @@ const Solutions = ({ addClass = false }) => {
               <div className="counter__two-item">
                 <h2>
                   <span className="counter">
-                    <Counter value={150} />
+                    <Counter value={30} />
                   </span>
                   <span className="pre">+</span>
                 </h2>
-                <span>Team member</span>
+                <span>Skilled Professionals</span>
               </div>
             </div>
             <div
@@ -78,7 +78,7 @@ const Solutions = ({ addClass = false }) => {
                   </span>
                   <span className="pre">+</span>
                 </h2>
-                <span>Winning award</span>
+                <span>Completed Projects</span>
               </div>
             </div>
             <div
@@ -90,11 +90,11 @@ const Solutions = ({ addClass = false }) => {
               <div className="counter__two-item">
                 <h2>
                   <span className="counter">
-                    <Counter value={700} />
+                    <Counter value={120} />
                   </span>
                   <span className="pre">+</span>
                 </h2>
-                <span>Complete project</span>
+                <span>Corporate Clients</span>
               </div>
             </div>
             <div
@@ -106,11 +106,11 @@ const Solutions = ({ addClass = false }) => {
               <div className="counter__two-item">
                 <h2>
                   <span className="counter">
-                    <Counter value={685} />
+                    <Counter value={100} />
                   </span>
-                  <span className="pre">+</span>
+                  <span className="pre">%</span>
                 </h2>
-                <span>Client review</span>
+                <span>Client Satisfaction</span>
               </div>
             </div>
           </div>

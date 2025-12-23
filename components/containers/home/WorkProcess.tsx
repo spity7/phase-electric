@@ -1,8 +1,8 @@
 import Image from "next/image";
 import border from "@/public/img/shape/border.svg";
-import processTwo from "@/public/img/icon/process-1.svg";
-import processThree from "@/public/img/icon/process-2.svg";
-import process from "@/public/img/icon/process-3.svg";
+import processTwo from "@/public/img/icon/consultation.png";
+import processThree from "@/public/img/icon/flash_615283.png";
+import process from "@/public/img/icon/plug_11802400.png";
 
 const WorkProcess = ({ addClass = false }) => {
   return (
@@ -16,9 +16,11 @@ const WorkProcess = ({ addClass = false }) => {
         <div className="row mb-40">
           <div className="col-xl-12 ">
             <div className="work__process-title">
-              <h2>
-                Expanded compatibility with various platforms
-              </h2>
+              <h2>How Phase Electric Gets the Job Done Right</h2>
+              <p>
+                Our process ensures safe, reliable, and efficient electrical
+                solutions — from your first call to final inspection.
+              </p>
             </div>
           </div>
         </div>
@@ -35,10 +37,11 @@ const WorkProcess = ({ addClass = false }) => {
                 <span>01</span>
                 <Image src={processTwo} alt="icon" priority />
               </div>
-              <h3>Drip Detectives</h3>
+              <h3>Consultation & Assessment</h3>
               <p>
-                Plumbers provide essential services to install repair and maint
-                plumbing systems
+                We start by understanding your electrical needs and inspecting
+                your current setup. Our experts identify opportunities for
+                upgrades, safety improvements, and energy savings.
               </p>
             </div>
           </div>
@@ -54,10 +57,12 @@ const WorkProcess = ({ addClass = false }) => {
                 <span>02</span>
                 <Image src={processThree} alt="icon" priority />
               </div>
-              <h3>Leak Stop Specialists</h3>
+              <h3>Professional Installation</h3>
               <p>
-                Plumbers provide essential services to install repair and maint
-                plumbing systems
+                Our certified electricians handle every installation with
+                precision — whether it’s panel upgrades, lighting systems, or
+                smart home wiring. We guarantee code compliance and long-term
+                reliability.
               </p>
             </div>
           </div>
@@ -72,10 +77,12 @@ const WorkProcess = ({ addClass = false }) => {
                 <span>03</span>
                 <Image src={process} alt="icon" priority />
               </div>
-              <h3>Pipe Dream Team</h3>
+              <h3>Testing & Quality Check</h3>
               <p>
-                Plumbers provide essential services to install repair and maint
-                plumbing systems
+                Before we wrap up, every connection is tested for safety and
+                efficiency. Our final inspection ensures your electrical system
+                performs flawlessly — giving you peace of mind that it’s done
+                right the first time.
               </p>
             </div>
           </div>

@@ -20,16 +20,16 @@ const page = () => {
     <>
       <HeaderTwo />
       <BannerTwo />
-      <Services />
+      <Portfolio />
+      {/* <Services /> */}
       <Solutions />
       <WorkProcess />
       <Faq />
-      <Team />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Blog />
-      <SubscribeArea />
+      {/* <Team /> */}
+      {/* <Testimonial /> */}
+      {/* <Contact /> */}
+      {/* <Blog /> */}
+      {/* <SubscribeArea /> */}
       <FooterTwo />
       <InitAnimations />
       <CustomCursor />

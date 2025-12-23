@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/logo-2.png";
+import logo from "@/public/img/Pha_e__2_-removebg-preview.png";
 
 const FooterTwo = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +12,7 @@ const FooterTwo = () => {
           <div className="col-xl-12">
             <div className="footer__two-area">
               <div className="row">
-                <div className="col-xl-3 col-lg-5 col-md-6 md-mb-30">
+                <div className="col-xl-6 col-lg-6 col-md-6 md-mb-30">
                   <div
                     className="footer__one-widget"
                     data-aos-duration="800"
@@ -24,8 +24,7 @@ const FooterTwo = () => {
                       </Link>
                     </div>
                     <p>
-                      Proin pretium sem libero, nec aliquet augue lobortis in.
-                      Phasellus nibh quam, molestie
+                      Empowering Industries with Smarter Electrical Solutions
                     </p>
                     <div className="social__icon">
                       <ul>
@@ -39,7 +38,7 @@ const FooterTwo = () => {
                             <i className="fa-brands fa-twitter"></i>
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link href="https://behance.net" target="_blank">
                             <i className="fab fa-behance"></i>
                           </Link>
@@ -48,12 +47,12 @@ const FooterTwo = () => {
                           <Link href="https://linkedin.com" target="_blank">
                             <i className="fab fa-linkedin-in"></i>
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
+                {/* <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
                   <div
                     className="footer__one-widget ml-60 xl-ml-0"
                     data-aos-duration="800"
@@ -116,8 +115,8 @@ const FooterTwo = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-3 col-lg-4 col-md-6">
+                </div> */}
+                <div className="col-xl-6 col-lg-6 col-md-6">
                   <div
                     className="footer__one-widget"
                     data-aos-duration="800"
@@ -134,7 +133,7 @@ const FooterTwo = () => {
                           <span>Call Now</span>
                           <h6>
                             <Link href="tel:+125(895)658568">
-                              +125 (895) 658 568
+                              +961 1234 5678
                             </Link>
                           </h6>
                         </div>
@@ -150,7 +149,7 @@ const FooterTwo = () => {
                               href="https://google.com/maps"
                               target="_blank"
                             >
-                              66 Broklyant,New India
+                              Beirut
                             </Link>
                           </h6>
                         </div>
@@ -166,15 +165,15 @@ const FooterTwo = () => {
           <div className="col-xl-12">
             <div className="copyright__one">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-12 text-center">
                   <div className="copyright__one-left lg-t-center">
                     <p>
-                      &copy; <Link href="/">Pipepro</Link> {currentYear} | All
+                      &copy; <Link href="/">Phase</Link> {currentYear} | All
                       Rights Reserved
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                   <div className="copyright__one-menu t-right lg-t-center lg-mt-5">
                     <ul>
                       <li>
@@ -185,7 +184,7 @@ const FooterTwo = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

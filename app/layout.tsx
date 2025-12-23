@@ -10,8 +10,8 @@ import "yet-another-react-lightbox/styles.css";
 import "@/public/scss/main.scss";
 
 export const metadata: Metadata = {
-  title: "Pipepro - Handyman & Plumber NextJS Template",
-  description: "Handyman & Plumber NextJS Template",
+  title: "Phase Electric",
+  description: "phase electric",
   keywords: [
     "creative",
     "digital",
