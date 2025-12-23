@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import one from "@/public/img/portfolio/portfolio-1.jpg";
-import two from "@/public/img/portfolio/portfolio-2.jpg";
-import three from "@/public/img/portfolio/portfolio-3.jpg";
-import four from "@/public/img/portfolio/portfolio-4.jpg";
+import one from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
+import two from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
+import three from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
+import four from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
 
 const Portfolio = () => {
   return (
