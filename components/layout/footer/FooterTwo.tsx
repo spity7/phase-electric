@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/Pha_e__2_-removebg-preview.png";
+import logo from "@/public/img/PHAZE-logo-Model.pdf.jpg";
 
 const FooterTwo = () => {
   const currentYear = new Date().getFullYear();
@@ -20,7 +20,12 @@ const FooterTwo = () => {
                   >
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" priority />
+                        <Image
+                          src={logo}
+                          alt="logo"
+                          priority
+                          style={{ borderRadius: "14px" }}
+                        />
                       </Link>
                     </div>
                     <p>

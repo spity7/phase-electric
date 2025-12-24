@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/Pha_e-removebg-preview (1).png";
+import logo from "@/public/img/phase-black.png";
 import SearchBox from "./SearchBox";
 import Hamburger from "./Hamburger";
 import OffCanvasMenu from "./OffcanvasMenu";

@@ -546,6 +546,30 @@
     }
   }
 }
+
+.header-two-area {
+  background: linear-gradient(
+    135deg,
+    #ff4747,
+    #9193ff,
+    #ffffff
+  );
+  background-size: 300% 300%;
+  animation: headerGradient 1s ease infinite;
+}
+
+@keyframes headerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 @media (max-width: 1550px) {
   .header-one__center-menu ul li:nth-child(n + 5) .sub-menu li .sub-menu {
     inset-inline-end: 100%;
@@ -581,6 +605,7 @@
 
   .header-two-area {
     // padding-block: 27px;
+    padding: 0px;
   }
 
   .header-one__right-sidebar-popup {
@@ -602,6 +627,7 @@
 @media (max-width: 360px) {
   .header-two-area {
     // padding: 27px 15px;
+    padding: 0px;
   }
   .header-one__right-search {
     margin-inline-end: 20px;

@@ -28,7 +28,7 @@ const BannerTwo = () => {
                 reliable solutions for residential, commercial, and industrial
                 clients.
               </p>
-              <div
+              {/* <div
                 data-aos-duration="800"
                 data-aos="fade-up"
                 data-aos-delay="1000"
@@ -36,7 +36,7 @@ const BannerTwo = () => {
                 <Link className="button-1 " href="#">
                   Read More<i className="fa-regular fa-angle-right"></i>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-5">
