@@ -33,7 +33,7 @@ const BannerTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="1000"
               >
-                <Link className="button-1 " href="about">
+                <Link className="button-1 " href="#">
                   Read More<i className="fa-regular fa-angle-right"></i>
                 </Link>
               </div>
