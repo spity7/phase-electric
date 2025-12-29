@@ -363,7 +363,7 @@
 ==========================================================================*/
 .header-two {
   background: var(--color-2);
-  padding-top: 30px;
+  // padding-top: 30px;
   &-area {
     border: 1px solid #181818;
     padding: 7px 30px;
@@ -548,26 +548,8 @@
 }
 
 .header-two-area {
-  background: linear-gradient(
-    135deg,
-    #ff4747,
-    #9193ff,
-    #ffffff
-  );
-  background-size: 300% 300%;
-  animation: headerGradient 1s ease infinite;
-}
-
-@keyframes headerGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  border: none;
+  background: none;
 }
 
 @media (max-width: 1550px) {
@@ -896,4 +878,8 @@
   .mobile-menu .drop-active:after {
     content: "-";
   }
+}
+
+.header-one__left.logo img{
+  max-width: 240px;
 }

@@ -42,7 +42,7 @@ const HeaderTwo = () => {
 
   return (
     <>
-      <div className="header-two">
+      <div className="header-two" style={{ borderBottom: "2px solid black" }}>
         <div className="container">
           <div className="row">
             <div className="col-xl-12">

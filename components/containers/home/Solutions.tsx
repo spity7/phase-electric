@@ -114,7 +114,7 @@ const Solutions = ({ addClass = false }) => {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-xl-12 ">
               <div className="video__area">
                 <div className="video">
@@ -132,7 +132,7 @@ const Solutions = ({ addClass = false }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

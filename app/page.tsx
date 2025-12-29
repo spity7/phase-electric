@@ -19,8 +19,8 @@ const page = () => {
   return (
     <>
       <HeaderTwo />
-      <BannerTwo />
       <Portfolio />
+      <BannerTwo />
       {/* <Services /> */}
       <Solutions />
       <WorkProcess />
