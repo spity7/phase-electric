@@ -7,10 +7,10 @@ import Lightbox from "yet-another-react-lightbox";
 import Video from "yet-another-react-lightbox/plugins/video";
 import "yet-another-react-lightbox/styles.css";
 
-import one from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
-import two from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
-import three from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
-import four from "@/public/img/portfolio/WhatsApp Image 2025-12-23 at 9.44.41 PM.jpg";
+import one from "@/public//img/electrical/WhatsApp Image 2026-02-26 at 17.05.29 (1).jpeg";
+import two from "@/public/img/smart/WhatsApp Image 2026-02-26 at 17.07.01.jpeg";
+import three from "@/public/img/industrial/WhatsApp Image 2026-02-26 at 17.07.32 (1).jpeg";
+import four from "@/public/img/solar/WhatsApp Image 2026-02-26 at 17.07.33 (1).jpeg";
 
 type ProjectCategory = "electrical" | "smart" | "industrial" | "solar";
 
