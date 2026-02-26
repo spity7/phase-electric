@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import faq from "@/public/img/pages/WhatsApp Image 2025-12-23 at 9.35.50 PM (1).jpg";
+import faq from "@/public/img/pages/WhatsApp Image 2026-02-26 at 17.08.34.jpeg";
 import bannerShape from "@/public/img/shape/banner-shape.png";
 
 const BannerTwo = () => {
